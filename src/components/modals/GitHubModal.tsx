@@ -131,10 +131,27 @@ git push -u origin main`;
             </button>
           </div>
 
-          <div className="relative">
+          <div className="relative mb-3">
             <pre className="p-3 rounded bg-[var(--border)]/30 border border-[var(--border)] text-[11px] font-mono leading-relaxed overflow-x-auto text-[var(--fg)]">
               {gitCommands}
             </pre>
+          </div>
+
+          {/* Download Project ZIP option */}
+          <div className="p-3 rounded bg-[var(--border)]/20 border border-[var(--border)] flex items-center justify-between gap-3">
+            <div>
+              <div className="font-bold text-xs text-[var(--fg)]">Need the offline source files?</div>
+              <div className="text-[11px] text-[var(--filled)]">
+                Download the complete code bundle as a ZIP archive.
+              </div>
+            </div>
+            <a
+              href="/wordle-replica.zip"
+              download="wordle-replica.zip"
+              className="px-3 py-1.5 rounded bg-[var(--correct)] text-white font-bold text-xs uppercase tracking-wider hover:opacity-90 transition-opacity shrink-0"
+            >
+              Download .ZIP
+            </a>
           </div>
         </div>
 
