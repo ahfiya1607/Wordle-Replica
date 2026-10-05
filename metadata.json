@@ -1,0 +1,6 @@
+{
+  "name": "Wordle Replica",
+  "description": "A feature-complete Wordle replica with daily puzzles, hard mode, high contrast, statistics, shareable grids, and puzzle archive.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
